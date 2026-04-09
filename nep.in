@@ -1,0 +1,15 @@
+version       4
+type          2  Mg Zn
+cutoff        7 5
+n_max         4 4
+basis_size    12 12
+l_max         4 2 0
+neuron        40
+lambda_e      1.0
+lambda_f       1.0
+lambda_v       0.1
+zbl           2.5
+use_typewise_cutoff_zbl 0.7  
+batch         3000           
+population    50
+generation    200000
